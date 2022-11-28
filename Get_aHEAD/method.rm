@@ -1,0 +1,22 @@
+The Main Subject is cURL command
+
+you can use 'wget' or 'curl' to get the resource from web.
+
+curl is a Linux command
+
+curl [options] [URL...]
+
+use Curl to process HTTP Request
+
+[options]
+-X/--request [GET|POST|PUT|DELETE|PATCH]  use the specified http method to send http request
+-H/--header                               set the requset of url header
+-i/--include                              output the response of header
+-d/--data                                 bring with HTTP POST Data
+-v/--verbose                              output more message of debug log
+-u/--user                                 carry user account, password
+-b/--cookie                               carry a cookie
+
+
+solution cmd:
+curl -I head -i http://mercury.picoctf.net:45028/
