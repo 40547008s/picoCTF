@@ -1,0 +1,4 @@
+Use the Objdump method
+convert the binary to string
+command : strings -a -t x fang-of-haynekhtnamet > strings.txt
+

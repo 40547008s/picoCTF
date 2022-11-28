@@ -1,0 +1,16 @@
+Format String Attack
+
+correct use example : printf("%p",userArgv)
+
+vulnerable use example : printf(userArgv)
+
+it could dump the info about your IT asset.
+
+the method for dump the flag:
+
+use the command ->>> nc mercury.picoctf.net [port_number]
+chose 1 function
+than input %x%x%x.... [the more the better].
+than transfor hex to ascii
+than reverse the context with 4 words a group.
+you can get the flag.
