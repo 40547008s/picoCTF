@@ -1,0 +1,15 @@
+Hidden File in JPG
+
+use binwalk command:
+
+	:binwalk -e dolls.jpg
+
+	#To explore the binary in file.
+
+To extract the uncompressed data:
+
+	:cd _filename.extracted/
+	
+	#get into the uncompressed diretcory
+
+Repeat the process than you get the flag. 
