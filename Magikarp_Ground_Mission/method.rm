@@ -1,0 +1,5 @@
+Connect to the remote VM
+use "ssh" protocol
+then surf the VM directories to explore the flag.txt
+use command "cd /" to the root.(explore the flag.txt)
+then surf the home directory to explore the flag.txt
