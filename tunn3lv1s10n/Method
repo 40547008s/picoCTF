@@ -1,0 +1,15 @@
+First You need to Know the file type
+command : file target_file
+
+Next you can see the file header 
+command : head target_file
+
+than you can see the BM in the front of the head, so it could be a BitMap
+
+you can google bmp format and edit the file with Hex editor
+command : bless target_file
+
+the you can fix the header, and change the highth.
+Then you see the flag.
+
+#hit: you can open the image file with the command : open target_file 
