@@ -1,0 +1,12 @@
+One-Time pad cryptography
+
+use the same key to encrypt is dangerous.
+
+This example is the server puts the flag with the One-Time pad key.
+and then ask you anthor string to encrypt with the same key.
+
+the solution is to use a long string "aaaa..." (50000 - flag_len) to receive the encrypt string.
+And XOR the plaintext (aaa...) and encryptext than the key will appear!!
+
+
+
