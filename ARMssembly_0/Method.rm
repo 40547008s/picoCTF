@@ -1,0 +1,18 @@
+ARM assembly is key for this challenge
+
+first : some instruction of ARM
+
+varible sp       :Stack pointer
+
+sub x,y, #z      :Substract #z from y and store it in x. 
+
+str w0, [sp, 12] :Store the value w0 on the stack at offset 12.
+
+ldr w0, [sp, 8]  :Load the value at offset 8 on the stack into w0.
+
+cmp w1, w0 	 :Compare the values by substracting w0 from w1.
+
+bls .L2		 :Branch if less instruction, usually come with cmp.
+
+Summary the assembly code "chall.S" is to compare two num you give in.
+And then output the bigger one in Hex Format. The output is the flag!!
