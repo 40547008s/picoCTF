@@ -1,0 +1,25 @@
+Cookies set knowledge
+
+1.you can get the cookie of the target_web with the command:
+	curl -s target_url -i | grep Cookie
+
+2.Cookie Format : Set-Cookie: name=-1; Path=/
+
+3.Auto try to set the cookie with the terminal for loop:
+
+#terminal for loop format : 
+for <variable name> in <a list of items>; do <some command> $<variable name>; done;
+
+Example:
+for i in {1..20}; do 
+	contents=$(curl -s target_ip -H "Cookie: name=$i; Path=/" -L)
+	if ! echo "$contents" | grep -q "Not very special";
+	then
+		echo "Cookie #$i is special"
+		echo $content | grep "pico"
+		break
+	fi
+done;
+
+
+
