@@ -1,0 +1,10 @@
+Web Explore -- hrml,css,js
+you can exlpore the web file code with browser,
+and explore the head or some source the file include in such as .css or .js
+use the browser url and just concatenate the pwd to the url.
+the explore the other file!!
+
+example:
+https://jupiter.challenges.picoctf.org/problem/44924/                 (html)
+https://jupiter.challenges.picoctf.org/problem/44924/mycss.css        (css)
+https://jupiter.challenges.picoctf.org/problem/44924/myjs.js          (javascript) 
