@@ -1,0 +1,5 @@
+Forensics -- hidden information in JPG
+
+open the JPG file with text editor, than search the text "pico".
+You can see the flag in the file txt.
+
