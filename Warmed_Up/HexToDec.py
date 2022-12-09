@@ -1,0 +1,1 @@
+print('Dec >>>',int(input('Please enter a Hex >>>'),16))
