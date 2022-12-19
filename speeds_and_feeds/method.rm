@@ -1,0 +1,4 @@
+The knowledge point is CNC machine
+the command : nc mercury.picoctf.net 20301 #is code with G language (G code)
+than use this web : https://ncviewer.com (To monitor the CNC machine)
+Just upload the file of G code , than answer is print out!
