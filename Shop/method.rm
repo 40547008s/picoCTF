@@ -1,0 +1,9 @@
+first call the WebAPP
+command : nc mercury.picoctf.net 37799
+
+than try the program. you can find its bug.
+that is you can buy something with negative number, and your coin will add.
+so use the bug than you can get the flag with decimal format.
+
+you can use a web tool CyberChef !!
+https://gchq.github.io/CyberChef (use Data format : Recipe = From Decimal)
