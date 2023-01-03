@@ -1,0 +1,6 @@
+	<!-- Here's the first part of the flag: picoCTF{t -->
+/* CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 */
+
+# Part 3: t_0f_pl4c
+# Part 4: 3s_2_lO0k
+Congrats! You completed the scavenger hunt. Part 5: _35844447}

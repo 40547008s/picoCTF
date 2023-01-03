@@ -1,0 +1,8 @@
+This is website explore hidden files.
+the first veiw page is index.html
+the second page is mycss.css
+the third page is myjs.js
+the fourth page is robots.txt (keep from google search engine to crawl)
+the fifth page is .htaccess (for apache server to block ip)
+the sixth page is .ds_Store (for mac to record some info ex : icon, config...)
+
