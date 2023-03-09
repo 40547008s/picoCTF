@@ -1,0 +1,4 @@
+Use Base64 decrypt
+
+echo 'encrypt string' | base64 -d
+
